@@ -154,7 +154,7 @@ aside和main之间有20px的间距呢。给main加上`margin-left: 20px;`会发�
 ## BFC自适应布局优势 　　
 
 * 自适应内容由于封闭，更健壮，容错性强。比方说，内部clear:both不会与兄弟float产生矛盾。而纯流体布局，clear:both会让后面内容无法和float元素在一个水平上，产生布局问题。　
-* 自适应内容自动填满浮动以为区域，无需关心浮动元素宽度，可以整站大规模应用。而纯流体布局，需要大小不确定的margin/padding等值撑开合适间距，无法CSS组件化  
+* 自适应内容自动填满浮动以外区域，无需关心浮动元素宽度，可以整站大规模应用。而纯流体布局，需要大小不确定的margin/padding等值撑开合适间距，无法CSS组件化  
 
 关于BFC与自适应布局采用css的优劣性，可以参考这篇文章： [CSS深入理解流体特性和BFC特性下多栏自适应布局](http://www.zhangxinxu.com/wordpress/2015/02/css-deep-understand-flow-bfc-column-two-auto-layout/)   
 其他关于多栏自适应布局，推荐看一下：   
